@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.peoplewareinnovations.bluetooth_thermal_printer",
+    "module": "bluetooth_thermal_printer_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bluetooth_thermal_printer_debug-1.0.aar",
+          "url": "bluetooth_thermal_printer_debug-1.0.aar",
+          "size": 21247,
+          "sha512": "d06ee6d04723d56d971a7420a48fcd6a36a83da8f22be71fcc06c71083bf70a9229a34720c6346bd1315667b337926297a6d17b71c540d9ba54bfc3e115741a0",
+          "sha256": "97d0509487fc959ed3af16ee13c6579f46815fa52b9bb5624fadf421664f8070",
+          "sha1": "2bb46c8e656f2baf846b97e51c89d08b5b8cbe14",
+          "md5": "9ca02aae5f9b2bc1d6ff0bb453a234c6"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bluetooth_thermal_printer_debug-1.0.aar",
+          "url": "bluetooth_thermal_printer_debug-1.0.aar",
+          "size": 21247,
+          "sha512": "d06ee6d04723d56d971a7420a48fcd6a36a83da8f22be71fcc06c71083bf70a9229a34720c6346bd1315667b337926297a6d17b71c540d9ba54bfc3e115741a0",
+          "sha256": "97d0509487fc959ed3af16ee13c6579f46815fa52b9bb5624fadf421664f8070",
+          "sha1": "2bb46c8e656f2baf846b97e51c89d08b5b8cbe14",
+          "md5": "9ca02aae5f9b2bc1d6ff0bb453a234c6"
+        }
+      ]
+    }
+  ]
+}

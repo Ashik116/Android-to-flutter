@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.bluetooth_print",
+    "module": "bluetooth_print_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bluetooth_print_release-1.0.aar",
+          "url": "bluetooth_print_release-1.0.aar",
+          "size": 206268,
+          "sha512": "f9f741f0dc02c700fc070055e6012467aa195058a30b4b8090494d853bb7af593287935ae46549c848117f49ab134288eda4a3a9e201a77c3889c5292880810e",
+          "sha256": "414f33ecd9afde406fd7add35e4e8f060db1a2214e9fa0d97152bba6788a2d63",
+          "sha1": "7b20455c69f5935cb451e1d433186a94edc256b0",
+          "md5": "423b942010c1fe143a1d627d736e98ff"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bluetooth_print_release-1.0.aar",
+          "url": "bluetooth_print_release-1.0.aar",
+          "size": 206268,
+          "sha512": "f9f741f0dc02c700fc070055e6012467aa195058a30b4b8090494d853bb7af593287935ae46549c848117f49ab134288eda4a3a9e201a77c3889c5292880810e",
+          "sha256": "414f33ecd9afde406fd7add35e4e8f060db1a2214e9fa0d97152bba6788a2d63",
+          "sha1": "7b20455c69f5935cb451e1d433186a94edc256b0",
+          "md5": "423b942010c1fe143a1d627d736e98ff"
+        }
+      ]
+    }
+  ]
+}

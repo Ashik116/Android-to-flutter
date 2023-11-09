@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.connectivity",
+    "module": "connectivity_plus_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "connectivity_plus_debug-1.0.aar",
+          "url": "connectivity_plus_debug-1.0.aar",
+          "size": 9513,
+          "sha512": "6263d1b3ee52643e364ef16872629f8f8f926966349ec0a6e147cbaab30d5b5adc8cdbb2844048e158e168fa13f7f4656c775dd21ef9e29277e51e05976f69a4",
+          "sha256": "2a48d59db94f5f9d2f7c904945d3c853620dbd36806fbfb2cbe00b31e5cee938",
+          "sha1": "a9c9fe30ee63a1006d6d4acdda6cc1f9b42ecaf1",
+          "md5": "7553fc0f45c6dd0afba6f011a3d7e6a1"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "connectivity_plus_debug-1.0.aar",
+          "url": "connectivity_plus_debug-1.0.aar",
+          "size": 9513,
+          "sha512": "6263d1b3ee52643e364ef16872629f8f8f926966349ec0a6e147cbaab30d5b5adc8cdbb2844048e158e168fa13f7f4656c775dd21ef9e29277e51e05976f69a4",
+          "sha256": "2a48d59db94f5f9d2f7c904945d3c853620dbd36806fbfb2cbe00b31e5cee938",
+          "sha1": "a9c9fe30ee63a1006d6d4acdda6cc1f9b42ecaf1",
+          "md5": "7553fc0f45c6dd0afba6f011a3d7e6a1"
+        }
+      ]
+    }
+  ]
+}
